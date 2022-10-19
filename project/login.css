@@ -1,0 +1,51 @@
+*{
+box-sizing: border-box;
+}
+body{
+	 height: 100%;
+		background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bG9naW58ZW58MHx8MHx8&w=1000&q=80);
+		background-repeat: no-repeat,no-repeat;
+		background-size: 100%;
+		background-position: left,right;
+		background-attachment: fixed,scroll;
+		width: 50%,100%;
+
+margin: 0px;
+background: 038ade;
+font-family: sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: safe center;
+	position: relative;
+
+
+}
+.Login-box{
+
+	margin-top:150px ;
+	flex-basis:300px ;
+	background:#fff ;
+	padding:50px ;
+	justify-content: center;
+}
+.Login-box h2{
+	border-bottom: 5px solid #ccc;
+	color: #777;
+
+}
+input,select{
+	width: 100px;
+	padding: 15px;
+	margin: 8px 0;
+	border: 1px solid #ccc ;
+}
+input[type=submit]{
+	background: #038ade;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
